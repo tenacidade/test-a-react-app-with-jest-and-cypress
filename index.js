@@ -1,4 +1,4 @@
-module.exports = isPalindrome;
+module.exports = { isPalindrome, twoSum };
 
 function isPalindrome(string) {
     // O(n)
@@ -17,4 +17,16 @@ function isPalindrome(string) {
     }
 
     return true
+}
+
+function twoSum(nums, target) {
+    // O(n)
+    // Iterate the array once
+    // At each iteration, calculate the value needed to get to the target, which is target - currentValue
+    // If the neededValue exists in the array, return [currentValue, neededValue], else continue iteration
+	for (let i = 0; i < nums.length; i++) {
+		const neededNum = target - nums[i]
+		if (nums.indexOf(neededNum) !== -1 && nums.indexOf(neededNum) !== i) return [nums[i], nums[nums.indexOf(neededNum)]]
+	}
+    return false
 }
