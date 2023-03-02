@@ -1,0 +1,15 @@
+{
+  "name": "test-a-react-app-with-jest-and-cypress",
+  "version": "1.0.0",
+  "description": "I`m learning new tools and frameworks for automated testing. This is a practical project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
