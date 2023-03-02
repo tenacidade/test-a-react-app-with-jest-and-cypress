@@ -1,3 +1,5 @@
+module.exports = isPalindrome;
+
 function isPalindrome(string) {
     // O(n)
     // Put a pointer at each extreme of the word and iterate "inwards"
