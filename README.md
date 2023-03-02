@@ -11,6 +11,6 @@ Then install Jest by running
     npm i -D jest 
 -D saves it as a development dependency
 
-I addeed the files index.js (With a palindrome script checker) and index.test.js (to test the palindrome script)
+I addeed the files index.js (With some JS scripts) and index.test.js (to test those scripts)
 
 If you have these files and NPM and Jest, you can run "npm test" in terminal, and get the results:
